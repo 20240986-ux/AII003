@@ -2,18 +2,20 @@
 AII003 Student Class Diagram Homework 20240986
 
 
+
+```mermaid
 classDiagram
     class Student {
-        -String studentNo
-        -String name
-        -String major
-        -int year
-        -double cgpa
-        -List~String~ courses
-        +Student(studentNo, name, major, year)
-        +addCourse(courseCode) void
-        +removeCourse(courseCode) void
-        +setCgpa(newCgpa) void
-        +checkDeanList() boolean
-        +printSummary() void
+        -String studentId
+        -String fullName
+        -String department
+        -int semester
+        -double gpa
+        -List~String~ enrolledCourses
+        +Student(studentId, fullName, department, semester)
+        +registerCourse(courseCode) void
+        +dropCourse(courseCode) void
+        +updateGpa(newGpa) void
+        +isHonorStudent() boolean
+        +getStudentProfile() void
     }
