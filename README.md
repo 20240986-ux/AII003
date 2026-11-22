@@ -3,6 +3,14 @@ AII003 Student Class Diagram Homework 20240986
 
 
 
+# AII003 - Software Engineering Assignment
+**Student Name:** Umut Çalışkan  
+**Student ID:** 20231604  
+**Department:** ISE (Information System Engineering)  
+
+## Student UML Class Diagram
+Below is the UML Class Diagram designed for the `Student` entity, which is mapped directly to the source code in `student.py`.
+
 ```mermaid
 classDiagram
     class Student {
